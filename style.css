@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  background: linear-gradient(rgb(128, 219, 249), rgb(239, 188, 93));
+  height: 100vh;
+
+}
+#container {
+  text-align: center;
+}
+
+#mainHeading  {
+  font-size: 32px;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+#loadCountries {
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 20px;
+  width: 180px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+#countryNames {
+  font-weight: 700;
+  font-size: 18px;
+  width: 350px;
+  height: 35px;
+  margin-bottom: 15px;
+}
+
+/* Country details section  */
+#countryDetailsSection {
+  width: 400px;
+  background-color: white;
+  border-radius: 5%;
+  align-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: none;
+  
+}
+
+#countryFlag {
+  height: 200px;
+  border-radius: 5%;
+  border: 1px solid black;
+  margin-bottom: 15px;
+  overflow: hidden;
+  display: flex;
+}
+
+#countryFlag img{
+  justify-content: center;
+  align-items: center;
+  width: 120%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#countryContinent {
+  color: rgb(111, 105, 105);
+  margin-top: 10px;
+}
+
+#countryPopulation, #countryLanguage, #countryCurrency {
+  margin-left: 60px;
+  text-align: left;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+hr {
+  width: 80%;
+  margin: 20px auto;
+  left: auto;
+  right: auto;
+}
+
+span {
+  font-size: 35px;
+}
